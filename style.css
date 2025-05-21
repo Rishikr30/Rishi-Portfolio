@@ -175,9 +175,7 @@ section h2::after {
 }
 
 .skill-icon {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    color: #4CAF50;
+    height: 90px;
 }
 
 /* Projects Section */
@@ -348,7 +346,7 @@ footer {
     }
 
     .nav-links.active {
-        left: 590px;
+        left: 500px;
     }
 
     .nav-links li {
