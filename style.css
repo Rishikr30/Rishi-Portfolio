@@ -305,21 +305,22 @@ footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: #4CAF50;
-    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #ecf1ec;
     border-radius: 50%;
     margin: 0 10px;
-    text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
-.social-link:hover {
-    background-color: #3e8e41;
+.social-icon:hover {
+    background-color: #84e6d6;
 }
 .social-icon{
     align-items: center;
+    height: 45px;
+    border-radius: 50%;
+
 }
 .copyright {
     font-size: 0.9rem;
@@ -346,7 +347,7 @@ footer {
     }
 
     .nav-links.active {
-        left: 500px;
+        left: 590px;
     }
 
     .nav-links li {
