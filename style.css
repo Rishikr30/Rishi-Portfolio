@@ -304,11 +304,13 @@ footer {
 .social-link {
     display: inline-flex;
     justify-content: center;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
-    background-color: #ecf1ec;
-    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    /* background-color: #ecf1ec; */
+    /* border-radius: 50%; */
     margin: 0 10px;
     transition: background-color 0.3s ease;
 }
@@ -316,11 +318,26 @@ footer {
 .social-icon:hover {
     background-color: #84e6d6;
 }
-.social-icon{
+
+.social-icon {
     align-items: center;
     height: 45px;
-    border-radius: 50%;
+    width: 45px;
+    /* border-radius: 50%; */
+    background-color: pink;
+}
 
+.email-mob{
+  
+    color: rgb(245, 143, 160);
+    
+    margin: 0 10px;
+}
+.email:hover{
+    background-color: #84e6d6;
+}
+.mob:hover{
+    background-color:#84e6d6 ;
 }
 .copyright {
     font-size: 0.9rem;
@@ -372,9 +389,10 @@ footer {
         height: 200px;
     }
 
-    .Image{
+    .Image {
         height: 225px;
     }
+
     .projects-container {
         grid-template-columns: 1fr;
     }
