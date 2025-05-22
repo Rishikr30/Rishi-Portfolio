@@ -121,6 +121,7 @@ header {
     color: #4CAF50;
 }
 
+
 /* Section Styles */
 section {
     padding: 60px 0;
@@ -199,6 +200,7 @@ section h2::after {
 
 .project-image {
     height: 200px;
+    width: 100%;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -206,8 +208,9 @@ section h2::after {
 }
 
 .project-image p {
-    font-size: 1.2rem;
-    color: #999;
+    font-style: oblique;
+    font-size: 2.2rem;
+    color: #dc0e0e;
 }
 
 .project-info {
@@ -297,9 +300,9 @@ footer {
 
 .social-links {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .social-link {
@@ -309,26 +312,15 @@ footer {
     font-size: 18px;
     text-decoration: none;
     font-weight: 650;
+
 }
-.social-link:hover{
+
+.social-link:hover {
     color: rgb(126, 192, 236);
 }
-.social-icon:hover {
-    background-color: #84e6d6;
-}
 
-.social-icon {
-    align-items: center;
-    height: 45px;
-    width: 45px;
-    /* border-radius: 50%; */
-    background-color: pink;
-}
+.email-mob {
 
-
-
-.email-mob{
-  
     color: rgb(126, 192, 236);
     font-size: 15px;
     align-items: center;
@@ -338,17 +330,20 @@ footer {
     margin: 2px 15px;
     text-decoration: none;
 }
-.email:hover{
+
+.email:hover {
     color: red;
 }
-.mob:hover{
+
+.mob:hover {
     color: red;
-    
+
 }
+
 .copyright {
     font-size: 0.9rem;
     color: #ccc;
-   margin-bottom: -10px 10px;
+    margin-bottom: -10px 10px;
 }
 
 /* Responsive Design */
